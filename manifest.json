@@ -1,28 +1,16 @@
 {
-  "author": "",
-  "description": "",
-  "manifest_version": 2,
+  "name": "TodoList Program",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "一款简单的TodoList待办清单拓展",
+  "action": {
+    "default_icon": "./icons/icon.png",
+    "default_popup": "./popup/index.html"
+  },
   "icons": {
-    "48": "icons/icon.png"
-  },
-  "name": "edgeExtension",
-  "version": "1.0",
-  "content_scripts": [],
-  "web_accessible_resources": [],
-  "browser_action": {
-    "default_icon": {
-      "48": "icons/icon.png",
-      "default_title": "edgeExtension",
-      "default_popup": "popup/index.html"
-    }
-  },
-  "permissions": [
-    "tabs",
-    "notifications",
-    "webRequest",
-    "webRequestBlocking",
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ]
+    "16": "./icons/icon.png",
+    "32": "./icons/icon.png",
+    "48": "./icons/icon.png",
+    "128": "./icons/icon.png"
+  }
 }
