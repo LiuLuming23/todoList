@@ -1,8 +1,8 @@
 function myClick() {
   myWin = window.open(
-    "https://www.runoob.com",
+    "http://edgeplugin.yezilu.xyz/",
     "",
-    "width=500,height=600,location=no,alwaysRaised=yes"
+    "width=520,height=800,location=no,alwaysRaised=yes"
   );
   myWin.focus();
   myWin.showModalDialog();
